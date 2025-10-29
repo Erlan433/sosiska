@@ -3,12 +3,13 @@ main{
     margin-top: 1.5%;
     display: flex;
     justify-content: space-between;
+    height: 100%;
 }
 .side-bar{
     width: 25%;
     display: flex;
     flex-direction: column;
-    gap: 1.5%;
+    gap: 5%;
 }
 .trailers{
     background-color: rgba(255, 255, 255, 0.069);
@@ -16,22 +17,25 @@ main{
     border-radius: 20px;
     color: white;
     backdrop-filter: blur(1px);
-    padding: 20px 20px;
-    height: fit-content;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 50%;
 }
 
 .trailers > h2{
     margin: 0;
     font-size: 18px;
     font-weight: 600;
+    height: 5%;
 }
 
 .trailer-card1{
     background-image: url("../images/breakingbad.jpg");
     background-size: cover;
     border-radius: 20px;
-    margin-top: 17px;
-    height: 180px;
+    height: 43%;
     display: flex;
     align-items: end;
 }
@@ -40,8 +44,7 @@ main{
     background-image: url("../images/tupoy.jpg");
     background-size: cover;
     border-radius: 20px;
-    margin-top: 17px;
-    height: 180px;
+    height: 43%;
     display: flex;
     align-items: end;
 }
@@ -69,6 +72,10 @@ main{
 
 .sec1{
     width: 71%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
 }
 
 .continue{
@@ -77,8 +84,11 @@ main{
     border-radius: 20px;
     color: white;
     backdrop-filter: blur(1px);
-    padding: 20px 20px;
-    height: fit-content;
+    padding: 5%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .continue > h2{
@@ -89,16 +99,15 @@ main{
 
 .conti-line1, .conti-line2, .conti-line3{
     width: 100%;
-    height: 80px;
+    height: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 }
 
 .conti-line1 > img, .conti-line2 > img, .conti-line3 > img{
     height: 100%;
-    width: 80px;
+    width: 25%;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.236);
@@ -116,14 +125,14 @@ main{
 
 .banner{
     width: 93%;
-    height: 380px;
+    height: 45%;
     border-radius: 20px;
     background-image: linear-gradient(to right, rgba(0, 60, 255, 0.2), rgba(255, 0, 0, 0.2)), url(../images/godzilaVSkingkong.jpg);
     background-size: cover;
     display: flex;
     align-items: end;
     justify-content: space-between;
-    padding: 40px 3.5%;
+    padding: 3.5%;
     border: 1px solid rgba(255, 255, 255, 0.35);
 }
 
@@ -187,4 +196,87 @@ main{
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+.trands{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 35%;
+}
+
+.trand-card1, .trand-card2, .trand-card3, .trand-card4{
+    height: 100%;
+    width: 22%;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-size: cover;
+    background-position: center center;
+    gap: 10%;
+}
+
+.trand-card1{
+    background-image: linear-gradient(to right, rgba(9, 255, 0, 0.2), rgba(255, 0, 0, 0.2)), url("../images/celpauk1.jfif");
+}
+.trand-card2{
+    background-image: linear-gradient(to right, rgba(114, 114, 114, 0.2), rgba(255, 0, 0, 0.2)), url("../images/chelpauk2.webp");
+}
+.trand-card3{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(255, 0, 0, 0.2)), url("../images/chelpauk3.jpg");
+}
+.trand-card4{
+    background-image: linear-gradient(to bottom, rgba(0, 60, 255, 0.2), rgba(255, 0, 0, 0.2)), url("../images/chelpauk4.webp");
+}
+
+.trand-info{
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.trand-info > .tagg{
+    background-color: rgba(255, 255, 255, 0.144);
+    border: 1px solid rgba(255, 255, 255, 0.237);
+    backdrop-filter: blur(6px);
+    border-radius: 100px;
+    padding: 4px 20px;
+    color: rgba(255, 255, 255, 0.814);
+    font-weight: 600;
+    width: fit-content;
+}
+
+.trand-info > h3{
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.trand-info >p{
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.trand-info > a{
+    color: white;
+    width: fit-content;
+    border-bottom: 1px solid white;
+}
+
+.trand-btn{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.369);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    padding: 14px 11.5px;
+    border-radius: 100px;
 }

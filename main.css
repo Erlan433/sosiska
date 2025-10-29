@@ -1,6 +1,6 @@
 a, p, h1, h1, h3, h4, button, input{
     text-decoration: none;
-    font-family: "Playfair Display", serif;
+    font-family: "Chiron Sung HK", serif;
 }
 
 body{
@@ -24,7 +24,7 @@ body{
 
 header{
     width: 100%;
-    height: 50px;
+    height: 6%;
     display: flex;
     justify-content: space-between;
 }
