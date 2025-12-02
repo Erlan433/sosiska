@@ -1,0 +1,190 @@
+main{
+    width: 100%;
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.side-bar{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+}
+.trailers{
+    background-color: rgba(255, 255, 255, 0.069);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(1px);
+    padding: 20px 20px;
+    height: fit-content;
+}
+
+.trailers > h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.trailer-card1{
+    background-image: url("../images/breakingbad.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 17px;
+    height: 180px;
+    display: flex;
+    align-items: end;
+}
+
+.trailer-card2{
+    background-image: url("../images/tupoy.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 17px;
+    height: 180px;
+    display: flex;
+    align-items: end;
+}
+.gradient-line{
+    background-color: rgba(88, 88, 88, 0.244);   
+    backdrop-filter: blur(12px);
+    border-radius: 0 0 20px 20px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trailer-btn{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.069);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    padding: 14px 11.5px;
+    border-radius: 100px;
+}
+.gradient-line > h3{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.sec1{
+    width: 71%;
+}
+
+.continue{
+    background-color: rgba(255, 255, 255, 0.069);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    border-radius: 20px;
+    color: white;
+    backdrop-filter: blur(1px);
+    padding: 20px 20px;
+    height: fit-content;
+}
+
+.continue > h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.conti-line1, .conti-line2, .conti-line3{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.conti-line1 > img, .conti-line2 > img, .conti-line3 > img{
+    height: 100%;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.236);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.conti-btn{
+    color: white;
+    background-color: rgba(109, 109, 109, 0.369);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    padding: 14px 11.5px;
+    border-radius: 100px;
+    margin-left: 40px;
+}
+
+.banner{
+    width: 93%;
+    height: 380px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgba(0, 60, 255, 0.2), rgba(255, 0, 0, 0.2)), url(../images/godzilaVSkingkong.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 40px 3.5%;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.banner > .content{
+    width: 50%;
+}
+
+.banner > .content > .tags{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.banner > .content > .tags > p{
+    background-color: rgba(255, 255, 255, 0.144);
+    border: 1px solid rgba(255, 255, 255, 0.237);
+    backdrop-filter: blur(6px);
+    border-radius: 100px;
+    padding: 4px 20px;
+    color: rgba(255, 255, 255, 0.814);
+    font-weight: 600;
+}
+
+.sec1 > .banner > .content > h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sec1 > .banner > .content > .desc{
+    color: rgb(187, 187, 187);
+    margin-top: 2xp;
+}
+
+.bunner-btns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.play, .download, .more{
+    color: white;
+    background-color: rgba(109, 109, 109, 0.369);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    padding: 14px 11.5px;
+    border-radius: 100px;
+}
+
+.navigation > a{
+    color: white;
+    background-color: rgba(109, 109, 109, 0.369);
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    padding: 14px 11.5px;
+    border-radius: 100px;
+}
+
+.navigation{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
